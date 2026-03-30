@@ -16,25 +16,24 @@ Displays basic system information including:
 - Open-source license
 
 ### 2. package_inspector.sh
-- Checks whether a package is installed
-- Displays its version
-- Uses a case statement to describe its purpose
-
+This script checks whether a package is installed or not.
+It then displays its version.
+The script uses a case statement to describe its purpose.
 
 ### 3. disk_auditor.sh
-- Iterates through important directories
-- Displays disk usage
-- Shows owner and permissions
+This script iterates through important directories.
+It then displays the disk usage.
+It finally shows owner and permissions.
 
 ### 4. log_analyzer.sh
-- Reads a log file line by line
-- Counts occurrences of a keyword
-
+This script reads a log file line by line.
+It then counts occurences of a keyword.
+And finally displays the count.
 
 ### 5. manifesto.sh
-- Takes user input interactively
-- Generates a personalized open-source manifesto
-- Saves output to a text file
+This script takes user input interactively.
+It then generates a personalized message as an open-source manifesto.
+It finally saves output to a text file - "manifesto.txt"
 
 ## Requirements
 - Linux environment (WSL or VM)
