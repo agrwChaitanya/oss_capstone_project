@@ -3,6 +3,13 @@
 ## Overview
 This project consists of five shell scripts designed to perform various system-level tasks on a Linux environment. The scripts demonstrate fundamental shell scripting concepts such as variables, loops, conditionals, command substitution, file handling, and user interaction.
 
+## Objectives
+- Understand and apply basic shell scripting concepts
+- Work with real Linux commands and system utilities
+- Automate common system-level tasks
+- Practice file handling, loops, and conditional logic
+- Develop scripts that are executable in a real Linux environment
+
 ## Scripts Description
 
 ### 1. system_identity.sh
