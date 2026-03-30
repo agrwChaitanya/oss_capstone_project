@@ -15,25 +15,54 @@ Displays basic system information including:
 - Current date and time
 - Open-source license
 
+Concepts used:
+- Variables
+- Command substitution
+- Output formatting
+
 ### 2. package_inspector.sh
 - This script checks whether a package is installed or not.
 - It then displays its version.
 - The script uses a case statement to describe its purpose.
+
+Concepts used:
+- if-else statements
+- case statements
+- dpkg command
+- grep and pipes
 
 ### 3. disk_auditor.sh
 - This script iterates through important directories.
 - It then displays the disk usage.
 - It finally shows owner and permissions.
 
+Concepts used:
+- for loop
+- df command
+- ls -ld
+- awk and cut
+  
 ### 4. log_analyzer.sh
 - This script reads a log file line by line.
 - It then counts occurences of a keyword.
 - And finally displays the count.
 
+Concepts used:
+- while-read loop
+- if-then condition
+- command-line arguments
+- counters
+
 ### 5. manifesto.sh
 - This script takes user input interactively.
 - It then generates a personalized message as an open-source manifesto.
 - It finally saves output to a text file - "manifesto.txt"
+
+Concepts used:
+- user input (read)
+- string concatenation
+- file writing
+- date command
 
 ## Requirements
 - Linux environment (WSL or VM)
@@ -45,16 +74,15 @@ Displays basic system information including:
 Make scripts executable: chmod +x *.sh
 
 
-## Concepts Used
-- Variables
-- Command substitution
-- If-else statements
+## Key Concepts Demonstrated
+- Shell scripting fundamentals
+- Variables and command substitution
+- Conditional statements (if-else)
 - Case statements
-- For loops
-- While loops
+- Loops (for, while)
 - File handling
-- User input
-- Text processing tools (awk, grep)
+- User interaction
+- Text processing using awk, grep, cut
 
 ## Author
 Chaitanya Agarwal 24BAI10341
